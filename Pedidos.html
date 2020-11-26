@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AdministraFast</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn1").click(function () {
+                $("p").append(" <b>¡Orden anotada!</b> ");
+            });
+
+            $(".btn2").click(function () {
+                $("ol").append("<li>¡Elemento agregado!</li>");
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <a href="AdministraFast.html">
+        <img src="Imágenes/AF_Logo.png" alt="Logo AdministraFast" title="AdministraFast" id="AF_Logo" />
+    </a>
+
+    <a href="AdministraFast.html">
+        <button type="button" class="button button2">Cerrar Sesión.</button>
+    </a>
+
+    <a href="AdministraFastLog.html">
+        <button type="button" class="button button1">¡Bienvenido!</button>
+    </a>
+
+    <div class="navbar">
+        <a href="AdministraFast.html">Inicio</a>
+        <div class="subnav">
+            <button class="subnavbtn">Acerca de Nosotros <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="QuieneSomos.html">¿Quiénes Somos?</a>
+                <a href="QueHacemos.html">¿Qué hacemos?</a>
+                <a href="MisionyVision.html">Misión y Visión</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Servicios <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="Pedidos.html">¡Haz tu pedido!</a>
+                <a href="Entregas.html">Entregas</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn">Colaboraciones <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+                <a href="Sabor.html" style="background-color:black; color: darkorange;">Sabor D'Oro</a>
+                <a href="Fresh.html" style="background-color:rgb(33, 236, 33); color: darkorange;">FreshParadICE</a>
+                <a href="Lavar.html" style="background-color: rgb(49, 49, 233);">¡A Lavar!</a>
+            </div>
+        </div>
+        <a href="Contacto.html">Contacto</a>
+    </div>
+
+    <div class="textgrcn">
+        <br>
+        <br>
+        <h1 style="text-align: center;">¡Selecciona los productos a ordenar!</h1>
+        <br>
+        <br>
+        <img class="logo" src="Imágenes/SaborDOro.png"/>
+        <b class="textin" style="text-align: center; color: goldenrod;">El Sabor D'Oro</b>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/El Sabor D' Oro/SDO1.jpg" />
+        <br>
+        <b>Orden 1</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/El Sabor D' Oro/SDO2.jpg" />
+        <br>
+        <b>Orden 2</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/El Sabor D' Oro/SDO3.jpg" />
+        <br>
+        <b>Orden 3</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/El Sabor D' Oro/SDO4.jpg" />
+        <br>
+        <b>Orden 4</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/El Sabor D' Oro/SDO5.jpg" />
+        <br>
+        <b>Orden 5</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <img class="logo" src="Imágenes/FreshParadICE.png" />
+        <b class="textin" style="text-align: center; color: greenyellow;">Fresh ParadICE</b>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/Fresh ParadICE/Paletas.jpg" />
+        <br>
+        <b>Paletas</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione sabor</label>
+            <select>
+                <option>Sabor</option>
+                <option>Arroz con Leche</option>
+                <option>Bubulubu</option>
+                <option>Cacahuate</option>
+                <option>Chicle</option>
+                <option>Chocomenta</option>
+                <option>Coco</option>
+                <option>Elote</option>
+                <option>Fresa</option>
+                <option>Mamut</option>
+                <option>Mazapán</option>
+                <option>óreo</option>
+                <option>Uva</option>
+                <option>Vainilla</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <b>Chamoyadas</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione sabor</label>
+            <select>
+                <option>Sabor</option>
+                <option>Avena</option>
+                <option>Fresa</option>
+                <option>Jamaica</option>
+                <option>Limonada</option>
+                <option>Limonada de Fresa</option>
+                <option>Naranjada</option>
+                <option>Piña</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br><br>
+        <img class="Pedido" src="Imágenes/Fresh ParadICE/Machaca2.jpg" />
+        <br>
+        <b>Machacados</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione sabor</label>
+            <select>
+                <option>Sabor</option>
+                <option>Fresa</option>
+                <option>Mamey</option>
+                <option>Mazapán</option>
+                <option>Óreo</option>
+                <option>Piñada</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br><br>
+        <img class="Pedido" src="Imágenes/Fresh ParadICE/Frappes.jpg" />
+        <br>
+        <b>Frappes</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione sabor</label>
+            <select>
+                <option>Sabor</option>
+                <option>Capuccino</option>
+                <option>Chocomenta</option>
+                <option>Ferrero</option>
+                <option>Fresa</option>
+                <option>Óreo</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/Fresh ParadICE/Aguas.jpg" />
+        <br>
+        <b>Refrescos Naturales</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione sabor</label>
+            <select>
+                <option>Sabor</option>
+                <option>Arroz con Leche</option>
+                <option>Bubulubu</option>
+                <option>Cacahuate</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <img class="logo" src="Imágenes/ALavar.png"/>
+        <b class="textin" style="text-align: center; color: blue;">¡A lavar!</b>
+        <br>
+        <br>
+        <img class="Pedido" src="Imágenes/ALavar/AL_Menú.jpg" />
+        <br>
+        <b>Ropa</b>
+        <br>
+        <input type="text" value="Peso aprox. en kg."><br>            
+        <form>
+            <label>Seleccione tipo de Ropa</label>
+            <select>
+                <option>Tipo</option>
+                <option>General</option>
+                <option>Delicada</option>
+                <option>De Trabajo</option>
+                <option>¡Express!</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <b>Edredones y Colchas</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione tipo de Edredón/Colcha</label>
+            <select>
+                <option>Tipo</option>
+                <option>Individual</option>
+                <option>Matrimonial</option>
+                <option>King Size</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <b>Cobertores y Sobrecamas</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione tipo de Cobertor/Sobrecama</label>
+            <select>
+                <option>Tipo</option>
+                <option>Individual</option>
+                <option>Matrimonial</option>
+                <option>King Size</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <b>Cortinas y Manteles</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+            </select>
+            <br>
+        </form>
+        <form>
+            <label>Seleccione el tamaño de Cortinas/Manteles</label>
+            <select>
+                <option>Tipo</option>
+                <option>Chico</option>
+                <option>Mediano</option>
+                <option>Grande</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+        <br>
+        <b>Planchado</b>
+        <br>
+        <form>
+            <label>Selecciona cantidad</label>
+            <select>
+                <option>0</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
+            <br>
+        </form>
+        <button class="btn2">¡Añadir!</button>
+        <br>
+        <br>
+
+        <h2>¿Algo más?</h2>
+        <b>Puedes escribir específicamente lo que buscas:</b>
+
+        <input type="text" value="Escribe aquí..."><br>
+        <button id="btn1">Añadir</button>
+
+        <p>Ordenes por escrito:</p>
+
+        <ol>
+            <li>Tus elementos especificados saldrán aquí abajo:</li>
+        </ol>
+
+
+        <br>
+        <br>
+    </div>
+
+</body>
+
+</html>
